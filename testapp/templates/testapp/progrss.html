@@ -1,0 +1,19 @@
+{% extends "testapp/base.html" %}
+
+    <div class="container mt-5 content">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="elevated-div">
+                    <h1 class="heading">Project Progress</h1>
+                    <p class="subheading">Track the progress of your ongoing projects with real-time data and visualize how much work has been completed. This page gives you a clear overview of project timelines, tasks completed, and upcoming milestones.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="circle-container">
+        <svg width="120" height="120">
+            <circle cx="60" cy="60" r="50" stroke="#ddd" stroke-width="10" fill="none"/>
+            <circle class="progress-circle" cx="60" cy="60" r="50" stroke="green" stroke-width="10" fill="none" stroke-dasharray="314" stroke-dashoffset="314"/>
+        </svg>
+    </div>
